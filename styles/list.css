@@ -1,0 +1,65 @@
+#position {
+	color: #435269;
+	margin-top: 50px;
+	padding-top: 12px;
+	margin-bottom: 20px;
+	border-top: 2px solid #F18336;
+}
+#position a {
+	color: #000;
+}
+
+#list {
+	border: 1px solid #ccc;
+	padding-bottom: 60px;
+}
+#list h2 {
+	float: left;
+	color: #666666;
+	line-height: 32px;
+	margin-left: 18px;
+}
+#list .listTitle {
+	width: 960px;
+	height: 32px;
+	background: url(../images/category_tit.gif) repeat-x;
+}
+#list .listTitle .sort {
+	margin-right: 24px;
+}
+#list .listTitle .sort a {
+	float: right;
+	margin-left: 6px;
+	margin-top: 6px;
+}
+#list ul li {
+	float: left;
+	text-align: center;
+	width: 234px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	vertical-align: bottom;	
+}
+#list ul li img {
+	/*vertical-align: bottom;*/
+}
+#list ul li .p1 {
+	color: #666;
+	margin-top: 4px;
+}
+#list ul li .p2 {
+	color: #666;
+	text-decoration: line-through;
+}
+#list ul li .p3 {
+	color: red;
+}
+#list ul li .p4 a {
+	margin: 4px 8px 0px 8px;
+}
+#list ul li:hover {
+	background-color: #eee;
+	width: 240px;
+}
+

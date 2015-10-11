@@ -1,0 +1,46 @@
+#position {
+	color: #435269;
+	margin-top: 50px;
+	padding-top: 12px;
+	margin-bottom: 20px;
+	border-top: 2px solid #F18336;
+}
+#position a {
+	color: #000;
+}
+
+#details .left {
+	width: 350px;
+	float: left;
+}
+#details .right {
+	float: right;
+	margin-left: 20px; 
+	width: 580px;
+}
+#details .right dl dt {
+	color: #666;
+	font-size: 18px;
+	border-bottom: 1px solid #888;
+	padding-bottom: 10px;
+}
+#details .right dl dd {
+	color: #435269;
+	padding: 10px 0px;
+	border-bottom: 1px dashed #999;
+	text-indent: 8px;
+}
+#details .right dl dd input {
+	text-align: center;
+}
+#details .content h3 {
+	color: #435269;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#details .content p {
+	text-indent: 2em;
+	line-height: 26px;
+	font-size: 14px;
+	color: #435655;
+}

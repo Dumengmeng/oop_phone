@@ -1,0 +1,143 @@
+/*基本格式*/
+body, div, ul, ol, li, dl, dt, dd, h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+}
+ul {
+	list-style: none;
+}
+img, a img {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.auto {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*主体样式*/
+body {
+	background: url(../images/body_bg.jpg) repeat-x;
+}
+#top .nav {
+	margin-top: 18px;
+	height: 46px;
+	background: url(../images/mainnav_bg.gif) repeat-x;
+}
+#top .same {
+	width: 10px;
+	height: 46px;
+}
+#top .left {
+	float: left;
+}
+#top .right {
+	float: right;
+}
+#top .mainNav ul{
+	float: left;
+}
+#top .mainNav ul li{
+	float: left;
+	width: 134px;
+	line-height: 46px;
+	background: url(../images/main_line.gif) no-repeat;
+}
+#top .mainNav ul li a{
+	font-weight: bold;
+	display: block;
+	color: #435269;
+	font-size: 14px;
+	padding-left: 52px;
+}
+#top .mainNav ul li a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	background: url(../images/green_bg.jpg);
+}
+#top .mainNav img{
+	float: left;
+}
+#top .submit .search {
+	background: url(../images/search_03.gif) no-repeat;
+	display: inline;
+	width: 186px;
+	height: 23px;
+	float: right;
+	margin: 10px 20px 0px 0px;
+} 
+#top .submit .search .keywords {
+	display: inline;
+	width: 140px;
+	height: 18px;
+	float: left;
+	border: 0px solid #fff; /*虚化默认的边框*/
+	margin: 2px 0px 0px 10px;
+}
+#top .submit .search .btn {
+	display: inline;
+	background: url(../images/search_biao.gif);
+	width: 15px;
+	height: 16px;
+	margin: 4px 0px 0px 8px;
+	float: left;
+	cursor: pointer;
+	border: none; /*将默认的边框删除*/
+}
+#top .submit .enter {
+	float: right;
+	margin: 10px 20px 0px 0px;
+}
+#top .submit .enter a {
+	color: #979693;
+}
+#top .submit .enter .enter2 {
+	margin-right: 16px;
+}
+
+
+
+#bottom {
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+	_padding-bottom: 60px;
+}
+#bottom p {
+	color: #bbb;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 8px;
+}
+#bottom a {
+	color: #aaa;
+	text-decoration: underline;
+}
+#bottom a:hover {
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
